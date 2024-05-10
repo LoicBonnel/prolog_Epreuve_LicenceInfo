@@ -1,0 +1,51 @@
+installer executeur prolog :
+
+https://www.swi-prolog.org/download/stable/bin/swipl-9.2.3-1.x64.exe.envelope
+C:\Program Files\swipl\bin
+
+swipl
+consult("Arbre.pl").
+
+pwd.    --> chemin du fichié d'execution
+
+working_directory(CWD, 'C:/Users/thege/Downloads/Prolog'). 
+[arbre].
+consult('').
+
+
+
+Ouvrez votre console Prolog.
+Chargez votre fichier en tapant consult('votre_chemin/mon_fichier.prolog').
+Assurez-vous de remplacer 'votre_chemin/mon_fichier.prolog' par le chemin complet de votre fichier Prolog.
+Après avoir chargé le fichier, vous pouvez poser des requêtes et obtenir des réponses.
+Par exemple, vous pouvez poser des questions comme :
+
+Qui sont les enfants d'André ?
+?- enfant(X, andre).
+
+Qui sont les fils de Baptiste ?
+?- fils(X, baptiste).
+
+
+Qui sont les parents de Dominique ?
+?- parent(X, dominique).
+
+
+Qui sont les cousins de Didier ?
+?- cousin(X, didier).
+etc.
+
+nano nom du fichier pour le modifier.
+ls --> pour voir tous les dossier
+
+halt. pour sortir dun exec
+
+
+Vous pouvez poser différentes requêtes en fonction de ce que vous voulez savoir dans votre base de connaissances.
+Assurez-vous de terminer chaque requête avec un point (.) pour indiquer à Prolog que la requête est terminée.
+
+
+
+
+
+Prolog est un anguage de prog logique
